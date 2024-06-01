@@ -1,0 +1,107 @@
+#section_reviews{
+    margin-top: 100px;
+    background-color: #F9FAFB;
+    margin-bottom: 80px;
+}
+
+#sec_ReTopics{
+    padding-top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#secRe_HeadText{
+    color: #0096c7;
+    margin: 7px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+#secRe_SubText{
+    margin: 5px;
+    text-align: center;
+    width: 350px;
+    color: #6B6E74;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+#sec_ReMain{
+    padding-top: 30px;
+    padding-bottom: 10px;
+    padding-right: 14vw;
+    padding-left: 14vw;
+}
+
+.sec_ReGrid-container{
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-bottom: 50px;
+}
+
+.sec_ReGrid-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    padding: 30px;
+
+    background-color: white;
+    height: 310px;
+    width: 336px;
+    border: 1px solid #E2E2E2;
+    border-radius: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+
+    transition: box-shadow 1s ease;
+}
+
+.sec_ReGrid-item:hover{
+    box-shadow: 0 0 15px #CAD3D5;
+}
+
+.sec_rePara{
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+    color: #808080;
+    margin-top: 20px;
+    line-height: 16px;
+}
+
+.sec_RePeople-container{
+    display: flex;
+    margin-bottom: 5px;
+    box-sizing: border-box;
+}
+
+.sec_RePeopleText{
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.sec_ReName{
+    margin: 0;
+    margin-top: 4px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.sec_RePost{
+    margin: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    color: #0096c7;
+}

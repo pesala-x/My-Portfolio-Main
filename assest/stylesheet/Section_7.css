@@ -1,0 +1,83 @@
+#section_7{
+    margin-top: 100px;
+    background-color: #F9FAFB;
+    margin-bottom: 80px;
+}
+
+#sec_7Topics{
+    padding-top: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#sec7_HeadText{
+    color: #0096c7;
+    margin: 7px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+#sec7_SubText{
+    margin: 5px;
+    text-align: center;
+    width: 350px;
+    color: #6B6E74;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+#sec_7MainDiv{
+    padding-top: 70px;
+    padding-bottom: 50px;
+    padding-right: 14vw;
+    padding-left: 14vw;
+}
+
+.sec_7Grid-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.sec_7Grid-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+    margin-right: 35px;
+    margin-left: 35px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+
+.sec_7Rec{
+    height: 60px;
+    width: 60px;
+    border: 1px solid #E2E2E2;
+    background-color: rgba(0, 0, 0, 0.814);
+    border-radius: 5px;
+    rotate: 45deg;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    transition: box-shadow 0.8s ease;
+}
+
+.sec_7Rec:hover{
+    box-shadow: 0 0 15px #CAD3D5;
+}
+
+.se_7Lang{
+    padding-top: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+}

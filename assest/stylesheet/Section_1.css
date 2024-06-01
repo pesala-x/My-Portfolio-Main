@@ -1,0 +1,81 @@
+#section_1{
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-image: url("../image/section_1/bg.jpg");
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    margin-bottom: 100px;
+}
+
+#sec1_Img {
+    width: 150px;
+}
+
+#sec1_HeadText{
+    color: rgb(34, 98, 171);
+    margin: 7px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 45px;
+    font-weight: 600;
+}
+
+#sec1_SubText{
+    margin: 5px;
+    text-align: center;
+    width: 550px;
+    color: #000000;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+#section_1>button{
+    margin: 10px;
+    background-color: #000000;
+    border: none;
+    border-radius: 5px;
+}
+
+#section_1>button>h6{
+    margin-top: 6px;
+    margin-bottom: 6px;
+    margin-right: 12px;
+    margin-left: 12px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    color: white;
+}
+
+#section_1>button:hover{
+    background-color: #0096c7;
+}
+
+
+.arrow{
+    position: relative;
+    color: white;
+    top: 180px;
+}
+
+.bounce {
+    animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-30px);
+    }
+    60% {
+        transform: translateY(-15px);
+    }
+}
