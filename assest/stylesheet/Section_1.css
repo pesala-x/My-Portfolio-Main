@@ -1,6 +1,6 @@
-#section_1{
+ #section_1{
     margin: 0;
-    width: 100vw;
+    /* width: 100vw;
     height: 100vh;
     background-size: cover;
     background-image: url("../image/section_1/bg.jpg");
@@ -8,11 +8,10 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-
-    margin-bottom: 100px;
+    justify-content: center; */
+    
 }
-
+/*
 #sec1_Img {
     width: 150px;
 }
@@ -63,7 +62,7 @@
     color: white;
     top: 180px;
 }
-
+*/
 .bounce {
     animation: bounce 2s infinite;
 }
@@ -78,4 +77,4 @@
     60% {
         transform: translateY(-15px);
     }
-}
+} 

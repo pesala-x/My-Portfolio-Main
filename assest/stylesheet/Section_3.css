@@ -1,7 +1,11 @@
-#section_3{
+
+body{
+    background-color: #3B3291;
+}#section_3{
     padding-left: 14vw;
     padding-right: 14vw;
     margin-bottom: 150px;
+    background-color: #3B3291;
 }
 
 #sec_3Topics{
