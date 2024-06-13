@@ -50,6 +50,17 @@ header>nav>ul>li>a {
     color: #757570;
     text-decoration: none;
 }
+header>nav>ul>li>a:hover{
+    color: #181919;
+    font-style: italic;
+}
+
+header>.toggle_btn{
+    color: #757570;
+    font-size: 1.5rem;
+    cursor: pointer;
+    display: none;
+}
 
 #logoNav{
     padding-right: 14vw;
@@ -64,8 +75,13 @@ header>nav>ul>li>a {
     height: 30px;
     width: 30px;
     border-radius: 100%;
-    background-color: #0096c7;
+    /* background-color: #0096c7; */
+    background-color: #86a8db;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+@media(max-width:992px){
+    header.links,
+    
 }

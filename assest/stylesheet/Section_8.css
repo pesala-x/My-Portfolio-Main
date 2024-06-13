@@ -12,7 +12,7 @@
 }
 
 #sec8_HeadText{
-    color: #0096c7;
+    color: #ffffff;
     margin: 7px;
     font-family: 'Poppins', sans-serif;
     font-size: 30px;
@@ -23,7 +23,7 @@
     margin: 5px;
     text-align: center;
     width: 350px;
-    color: #6B6E74;
+    color: #E2E2E2;
     font-family: 'Poppins', sans-serif;
     font-size: 12px;
     font-weight: 400;
@@ -71,42 +71,42 @@
 
 #sec_8FirstPr{
     background-size: cover;
-    background-image: url("../image/section_8/Sec_8First.jpg");
+    /* background-image: url("../image/section_8/Sec_8First.jpg"); */
 }
 
 #sec_8SecPr{
     background-size: cover;
-    background-image: url("../image/section_8/Sec_8Second.jpg");
+    /* background-image: url("../image/section_8/Sec_8Second.jpg"); */
 }
 
 #sec_8ThirdPr{
     background-size: cover;
-    background-image: url("../image/section_8/Sec_8Third.jpg");
+    /* background-image: url("../image/section_8/Sec_8Third.jpg"); */
 }
 
 #sec_8FourthPr{
     background-size: cover;
-    background-image: url("../image/section_8/Sec_8Fourth.jpg");
+    /* background-image: url("../image/section_8/Sec_8Fourth.jpg"); */
 }
 
 #sec_8FifthPr{
     background-size: cover;
-    background-image: url("../image/section_8/Sec_8Fifth.jpg");
+    /* background-image: url("../image/section_8/Sec_8Fifth.jpg"); */
 }
 
 #sec_8SixthPr{
     background-size: cover;
-    background-image: url("../image/section_8/Sec_8Sicth.jpg");
+    /* background-image: url("../image/section_8/Sec_8Sicth.jpg"); */
 }
 
 #sec_8SeventhPr{
     background-size: cover;
-    background-image: url("../image/section_8/Sec_8Seven.jpg");
+    /* background-image: url("../image/section_8/Sec_8Seven.jpg"); */
 }
 
 #sec_8EighthPr{
     background-size: cover;
-    background-image: url("../image/section_8/Sec_8Eight.jpg");
+    /* background-image: url("../image/section_8/Sec_8Eight.jpg"); */
 }
 
 .sec_8Overlay{
